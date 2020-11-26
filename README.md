@@ -1,3 +1,7 @@
+## College Data API
+
+- https://api-manager.collegeai.com/legal.txt
+- IPEDS - https://nces.ed.gov/ipeds/datacenter/MasterVariableList.aspx?cFrom=ADDVARIABLE
 ## File Structure
 
 ```
