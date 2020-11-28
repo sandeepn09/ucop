@@ -31,35 +31,8 @@ export const AuthLayoutRoutes: Routes = [
     path: "",
     children: [
       {
-        path: "register",
-        component: RegisterComponent
-      }
-    ]
-  },
-  {
-    path: "",
-    children: [
-      {
         path: "pricing",
         component: PricingComponent
-      }
-    ]
-  },
-  {
-    path: "",
-    children: [
-      {
-        path: "signin",
-        component: SigninComponent
-      }
-    ]
-  },
-  {
-    path: "",
-    children: [
-      {
-        path: "signup",
-        component: SignupComponent
       }
     ]
   }

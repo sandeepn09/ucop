@@ -5,6 +5,7 @@ import { BrowserModule } from "@angular/platform-browser";
 
 import { AdminLayoutComponent } from "./layouts/admin-layout/admin-layout.component";
 import { AuthLayoutComponent } from "./layouts/auth-layout/auth-layout.component";
+import {AppAuthLayoutComponent} from "./layouts/app-auth-layout/app-auth-layout.component";
 import { PresentationComponent } from "./pages/presentation/presentation.component";
 import { StudentDashboardComponent } from './layouts/student-dashboard/student-dashboard.component';
 
@@ -68,11 +69,17 @@ const routes: Routes = [
         path: "examples",
         loadChildren:
           "./layouts/auth-layout/auth-layout.module#AuthLayoutModule"
-      },
+      }
+    ]
+  },
+  {
+    path: "",
+    component: AppAuthLayoutComponent,
+    children: [
       {
         path: "registration",
         loadChildren:
-          "./layouts/auth-layout/auth-layout.module#AuthLayoutModule"
+          "./layouts/app-auth-layout/app-auth-layout.module#AppAuthLayoutModule"
       }
     ]
   },

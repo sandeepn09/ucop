@@ -21,9 +21,6 @@ import {SignupComponent} from '../../pages/registration/signup/signup.component'
     LoginComponent,
     PricingComponent,
     LockComponent,
-    RegisterComponent,
-    SigninComponent,
-    SignupComponent
   ]
 })
 export class AuthLayoutModule {}

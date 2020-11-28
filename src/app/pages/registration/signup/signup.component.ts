@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SignupComponent implements OnInit {
 
+  focus;
+  focus1;
+  focus2;
   constructor() { }
 
   ngOnInit() {

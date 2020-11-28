@@ -16,6 +16,7 @@ import { PresentationModule } from "./pages/presentation/presentation.module";
 import { AppRoutingModule } from "./app-routing.module";
 import { ComponentsModule } from "./components/components.module";
 import { StudentDashboardComponent } from './layouts/student-dashboard/student-dashboard.component';
+import { AppAuthLayoutComponent } from './layouts/app-auth-layout/app-auth-layout.component';
 
 @NgModule({
   imports: [
@@ -31,7 +32,7 @@ import { StudentDashboardComponent } from './layouts/student-dashboard/student-d
     TagInputModule,
     PresentationModule
   ],
-  declarations: [AppComponent, AdminLayoutComponent, AuthLayoutComponent, StudentDashboardComponent],
+  declarations: [AppComponent, AdminLayoutComponent, AuthLayoutComponent, StudentDashboardComponent, AppAuthLayoutComponent],
   providers: [],
   bootstrap: [AppComponent]
 })
